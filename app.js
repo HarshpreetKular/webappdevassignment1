@@ -8,7 +8,6 @@ Harshpreet Kular
 //imports
 var express = require("express");
 var path = require("path");
-var routes= require("./routes")
 
 var app=express();
 //set port to 3000
@@ -20,7 +19,9 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 //Use routes
-app.use(routes);
+app.use("/", require("./routes/web"));
+app.use("/api", require("./routes/api"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 var HOST = 'localhost'
 var PORT = 3000

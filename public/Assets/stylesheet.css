@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h5,
+h6,
+ul,
+blockquote {
+    color: #2A3166;
+    text-align: center;
+}
+h4{
+    color: #ffffff;
+    text-align: center;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #9ea9ff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.containerProfilePic{
+    background-color: #8e1e3d;
+    padding:5px;
+}
+.containerProject{
+    background-color: #8e1e3d;
+    padding:50px;
+}
+hr {
+    border-style:dashed;
+    border-width: 10px;
+}
+
+table {
+    border: 2px #2A3166;
+    border-collapse: separate;
+    background-color: #2A3166;
+    ;
+}
+
+td,
+th {
+    padding: 0.5em;
+    border: 2px #2A3166;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    color: #2A3166;
+}
+
+td,
+tr,
+th {
+    color: #2A3166;
+}
+
+tr:nth-child(odd) {
+    background-color: #F4ABAA;
+}
+
+tr:nth-child(even) {
+    background-color: #f4ebd1;
+}
