@@ -20,17 +20,29 @@ p{
     margin: auto;
     text-align: center;
 }
+.serviceIndiv{
+    margin: auto;
+    text-align: center;
+}
 .container1 {
     background-color: #9ea9ff;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.containerContact{
+    background-color: #8e1e3d;
+    padding:50px;
+}
 .containerProfilePic{
     background-color: #8e1e3d;
-    padding:5px;
+    padding: 50px;
 }
 .containerProject{
+    background-color: #8e1e3d;
+    padding:50px;
+}
+.containerServices{
     background-color: #8e1e3d;
     padding:50px;
 }
@@ -42,35 +54,24 @@ hr {
 table {
     border: 2px #2A3166;
     border-collapse: separate;
-    background-color: #2A3166;
-    ;
+    margin: auto;
 }
 
 td,
 th {
     padding: 0.5em;
     border: 2px #2A3166;
-}
-
-td {
     text-align: center;
 }
 
-.text {
-    text-align: left;
-    color: #2A3166;
+td {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+tr{
+    text-align: center;
+
 }
 
-td,
-tr,
-th {
-    color: #2A3166;
-}
-
-tr:nth-child(odd) {
-    background-color: #F4ABAA;
-}
-
-tr:nth-child(even) {
-    background-color: #f4ebd1;
-}
