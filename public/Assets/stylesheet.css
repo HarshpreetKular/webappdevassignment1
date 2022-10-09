@@ -16,7 +16,10 @@ p{
     color: #ffffff;
     text-align: center;
 }
-
+.projectIndiv{
+    margin: auto;
+    text-align: center;
+}
 .container1 {
     background-color: #9ea9ff;
     text-align: center;
